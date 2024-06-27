@@ -105,6 +105,10 @@ button:focus {
   background-color: #f4f4fd;
 }
 
+.team-item {
+  background-color: #ffffff;
+}
+
 .team-title,
 .portfolio-title {
   font-weight: 700;
@@ -132,6 +136,7 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #434455;
 }
 
