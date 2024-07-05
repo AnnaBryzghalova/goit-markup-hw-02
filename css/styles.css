@@ -14,6 +14,7 @@ a {
 }
 
 button {
+  font-family: inherit;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -21,11 +22,24 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  display: block;
+  margin: 0 auto;
 }
 
 button:hover,
 button:focus {
   background-color: #404bbf;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .logo {
@@ -99,6 +113,11 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team {
